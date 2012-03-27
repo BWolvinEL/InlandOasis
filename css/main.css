@@ -1,0 +1,30 @@
+body {
+	color: #000;
+	font-family: arial;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#photo-list {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+	#photo-list li {
+		display: inline;
+		float: left;
+		height: 150px;
+		margin: 0 10px;
+		overflow: hidden;
+		width: 200px;
+	}
+	
+		#photo-list img {
+			display: block;
+			height: 100%;
+		}
